@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - YZClubs</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/lib/datatables/css/jquery.dataTables.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -34,29 +35,50 @@
         </nav>
     </header>
     <div class="container">
+        @if (@TempData["Message"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @TempData["Message"] "This is my test message!"
+            </div>
+        }
+
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div class="container" style="float: left">
             &copy; <a href="mailto:yzhou5164@conestogac.on.ca.com?subject=Email_From_YZClubs">Yao Zhou </a> - Section 1
         </div>
-        <div>
-            <ul class="navbar-nav flex-grow-1">
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        <div style="float: right; ">
+            <ul class="navbar-nav flex-grow-1" style="display: inline; margin-right: 20em ">
+                <li class="nav-item" style="display: inline-block">
+                    <a href="/Home/Index">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                <li class="nav-item" style="display: inline-block">
+                    -
+                </li>
+                <li class="nav-item" style="display: inline-block">
+                    <a href="/Home/Privacy">Privacy</a>
                 </li>
             </ul>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/datatables/js/jquery.dataTables.js"></script>
+
     @RenderSection("Scripts", required: false)
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("table").dataTable();
+        })
+    </script>
 </body>
 </html>
+

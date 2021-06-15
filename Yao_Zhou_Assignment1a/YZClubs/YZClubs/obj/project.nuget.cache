@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c6oc7IWWuC05yuwAaU8Rnmzr9tScvSh53F6xOTp3qpy95Mh5GeudsUHFnNy0GKbQuKdPPYWXNJIXYzrmiPE20w==",
+  "dgSpecHash": "Mb6Nz7+KCs1wm4pKJB3vWHdsbC7byoK9dWK4+oRrZ5vkvyGw+0RLBR1QwnsbpGyOcRLnSz1zDCL1t3+Kv4Hu8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xingw\\Desktop\\8550\\YZClubs\\YZClubs\\YZClubs.csproj",
+  "projectFilePath": "C:\\Users\\xingw\\Desktop\\8550\\Yao_Zhou_Assignment1a\\YZClubs\\YZClubs\\YZClubs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xingw\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.15\\microsoft.aspnetcore.cryptography.internal.3.1.15.nupkg.sha512",
     "C:\\Users\\xingw\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.15\\microsoft.aspnetcore.cryptography.keyderivation.3.1.15.nupkg.sha512",

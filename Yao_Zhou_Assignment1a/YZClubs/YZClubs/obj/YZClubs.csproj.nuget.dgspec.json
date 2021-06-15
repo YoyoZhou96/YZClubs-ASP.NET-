@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xingw\\Desktop\\8550\\YZClubs\\YZClubs\\YZClubs.csproj": {}
+    "C:\\Users\\xingw\\Desktop\\8550\\Yao_Zhou_Assignment1a\\YZClubs\\YZClubs\\YZClubs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xingw\\Desktop\\8550\\YZClubs\\YZClubs\\YZClubs.csproj": {
+    "C:\\Users\\xingw\\Desktop\\8550\\Yao_Zhou_Assignment1a\\YZClubs\\YZClubs\\YZClubs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xingw\\Desktop\\8550\\YZClubs\\YZClubs\\YZClubs.csproj",
+        "projectUniqueName": "C:\\Users\\xingw\\Desktop\\8550\\Yao_Zhou_Assignment1a\\YZClubs\\YZClubs\\YZClubs.csproj",
         "projectName": "YZClubs",
-        "projectPath": "C:\\Users\\xingw\\Desktop\\8550\\YZClubs\\YZClubs\\YZClubs.csproj",
+        "projectPath": "C:\\Users\\xingw\\Desktop\\8550\\Yao_Zhou_Assignment1a\\YZClubs\\YZClubs\\YZClubs.csproj",
         "packagesPath": "C:\\Users\\xingw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xingw\\Desktop\\8550\\YZClubs\\YZClubs\\obj\\",
+        "outputPath": "C:\\Users\\xingw\\Desktop\\8550\\Yao_Zhou_Assignment1a\\YZClubs\\YZClubs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xingw\\AppData\\Roaming\\NuGet\\NuGet.Config",
